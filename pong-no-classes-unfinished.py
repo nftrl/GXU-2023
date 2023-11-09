@@ -98,7 +98,7 @@ while run:
 
     # UNIMPLEMENTED
     # COLLISION
-    if circle_rect_intersects(ball_x, ball_y, ball_r, player1_x, player1_y, player1_w, player1_h)
+    if circle_rect_intersects(ball_x, ball_y, ball_r, player1_x, player1_y, player1_w, player1_h):
         # Player1 and ball intersection, i.e. collision :)
         pass
 
