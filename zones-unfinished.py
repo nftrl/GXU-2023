@@ -63,7 +63,7 @@ while run:
 
     # Check if player is in the point zone
     distance = math.sqrt((player_x-zone_x)**2 + (player_y-zone_y)**2)
-    if distance <= zone_r:
+    if distance <= zone_r + player_r:
         # TODO
         pass
 
