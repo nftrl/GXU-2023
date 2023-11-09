@@ -2,25 +2,26 @@ import pygame
 import random
 import math
 
+"""
+The game is unfinished. Some things are partly implemented
+and marked with a comment in the source code,
+others you need to add yourself. These include:
+- Finish player movement
+- Add ball movement
+- Add second player
+- Add borders or screen wrapping for the ball and/or the players
+- Finish collision; what should happen when the ball hits a player?
+  Do you run into any problems?
 
-##The game is unfinished. Some things are partly implemented
-##and marked with a comment in the source code,
-##others you need to add yourself. These include:
-##- Finish player movement
-##- Add ball movement
-##- Add second player
-##- Add borders or screen wrapping for the ball and/or the players
-##- Finish collision; what should happen when the ball hits a player?
-##  Do you run into any problems?
-##
-##Feel free to add or change anything you feel like.
-##Here are some ideas:
-##- Change player or ball size
-##- Points
-##- Multiple balls
-##- Single player variant
-##- Pickups
-##- Dangerous balls that do negative things when hit
+Feel free to add or change anything you feel like.
+Here are some ideas:
+- Change player or ball size
+- Points
+- Multiple balls
+- Single player variant
+- Pickups
+- Dangerous balls that do negative things when hit
+"""
 
 # Function used to check for collision
 def circle_rect_intersects(cx, cy, cr, rx, ry, rw, rh):
