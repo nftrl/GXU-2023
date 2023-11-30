@@ -22,7 +22,7 @@ pygame.init()
 
 # Constants
 WIDTH, HEIGHT = 800, 600
-FPS = 60
+FPS = 120
 
 # Colors
 COLOR_BACKGROUND = (16, 37, 66)        # Dark Blue
@@ -43,6 +43,7 @@ class Paddle(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
         # Implement the paddle initialization code here
+        # Remember to create attributes image and rect
         # Set the initial position, size, and speed of the paddle
 
     def update(self):
@@ -55,6 +56,7 @@ class Ball(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
         # Implement the ball initialization code here
+        # Remember to create attributes image and rect
         # Set the initial position, size, and speed of the ball
 
     def update(self):
@@ -67,6 +69,7 @@ class Brick(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
         # Implement the brick initialization code here
+        # Remember to create attributes image and rect
         # Set the initial position, size, and color of the brick
 
 
