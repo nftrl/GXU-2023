@@ -9,7 +9,7 @@ import math
 #
 # Other things to implement:
 # - What happens when the player moves outside the screen?
-# -- Implement screen wrapping og borders 
+# -- Implement screen wrapping or borders 
 # - Points
 # - Pickups (for example speed increase)
 # - Timer
