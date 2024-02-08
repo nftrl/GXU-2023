@@ -1,4 +1,4 @@
-# Programmeringhold GXU 2023
+# Programmeringshold GXU 2023
 
 ## [Fra elever](https://github.com/nftrl/GXU-2023/tree/main/fra%20elever)
 ### Tactical Gardening
