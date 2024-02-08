@@ -11,8 +11,6 @@ A simple calculator for simple expressions. First it takes a binary operator lik
 
 Follow the steps to create the program and afterwards implement the extensions. Feel free to change or add anything you like :)
 
-
-### Example program
 The program (without extensions) might look something like this:
 
 	This is a simple calculator.
@@ -27,7 +25,6 @@ The program (without extensions) might look something like this:
 	Result:
 	19 + 3.4 = 22.4
 
-
 ### Steps
 These are steps you can follow to create the program. Also they work as a structure for the program.
 
@@ -36,9 +33,8 @@ These are steps you can follow to create the program. Also they work as a struct
 3. calculate result
 4. print result
 
-
 ### Extensions
-These are ideas for extensions. If you have any ideas of your own then you are welcome to go ahead with those.
+These are ideas for extending the program. If you have any ideas of your own feel free to go ahead with those.
 
 - Handle errors, for example invalid input and division by zero.
 - Implement a loop to allow for multiple calculations after the first one is done.
